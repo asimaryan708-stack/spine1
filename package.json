@@ -1,0 +1,8 @@
+{
+  "name": "spine-care-physiotherapy",
+  "version": "1.0.0",
+  "description": "Spine Care Physiotherapy Quetta",
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs"
+  }
+}

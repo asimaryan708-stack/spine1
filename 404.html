@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        // Redirect for clean URLs on GitHub Pages
+        const path = window.location.pathname;
+        if (path.endsWith('/') || path === '') {
+            window.location.replace('/index.html');
+        } else {
+            const newPath = path + '.html';
+            window.location.replace(newPath);
+        }
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>
