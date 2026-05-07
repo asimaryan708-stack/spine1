@@ -8,8 +8,7 @@
   "rewrites": [
     { "source": "/about", "destination": "/about.html" },
     { "source": "/services", "destination": "/services.html" },
-    { "source": "/articles", "destination": "/articles.html" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/articles", "destination": "/articles.html" }
   ],
   "headers": [
     {
